@@ -1,0 +1,6 @@
+task:
+  name: Test Cirrus
+  container:
+    image: alpine:latest
+  script: |
+    echo "Cirrus CI is working for RMX3366!"
